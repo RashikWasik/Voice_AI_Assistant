@@ -1,6 +1,6 @@
 # Voice_AI_Assistant
 
-##Features:
+## Features:
 1. Speak into your microphone and get instant AI responses in voice
 2. Built with Groq for super-fast replies using Llama 3.1
 3. AI listens to your voice, thinks, and speaks back naturally
