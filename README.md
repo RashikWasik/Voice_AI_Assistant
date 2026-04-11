@@ -1,12 +1,12 @@
 # Voice_AI_Assistant
 
 ##Features:
-Speak into your microphone and get instant AI responses in voice
-Built with Groq for super-fast replies using Llama 3.1
-AI listens to your voice, thinks, and speaks back naturally
-Full conversation history is saved and displayed
-Automatic voice playback of AI responses
-Simple, clean, and easy-to-use interface
-Shows status messages for better feedback
-One-click button to clear the entire conversation
-Proper error handling for smooth experience
+Voice input through microphone with instant AI responses
+Built using Groq for ultra-fast replies powered by Llama 3.1
+AI listens, processes, and responds in natural voice
+Maintains and displays full conversation history
+Automatic playback of AI-generated voice responses
+Simple, clean, and user-friendly interface
+Real-time status messages for better user feedback
+One-click option to clear the entire conversation
+Robust error handling for a smooth experience
