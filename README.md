@@ -1,5 +1,10 @@
 # Voice_AI_Assistant
 
+## How to Run:
+1. Install dependencies: pip install gradio speechrecognition gTTS groq
+2. Run: Voice_AI_Assistant.py
+3. Open the link: http://127.0.0.1:7860
+
 ## Features:
 1. Speak into your microphone and get instant AI responses in voice
 2. Built with Groq for super-fast replies using Llama 3.1
