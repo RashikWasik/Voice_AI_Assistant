@@ -97,7 +97,7 @@ with gr.Blocks(title="Voice AI Assistant (Made by RW)") as demo:
     audio_input = gr.Audio(
         sources=["microphone"],
         type="filepath",
-        label="🎙️ Speak here",
+        label="Speak here",
         visible=True,
         buttons=[]          
     )
@@ -109,7 +109,7 @@ with gr.Blocks(title="Voice AI Assistant (Made by RW)") as demo:
             clear_button = gr.Button("🗑️ Clear Conversation", variant="secondary", size="large")
 
     response_audio = gr.Audio(
-        label="🔊 AI Voice Response",
+        label="AI Voice Response",
         autoplay=True,
         buttons=[]
     )
