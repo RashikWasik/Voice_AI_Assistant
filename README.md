@@ -26,5 +26,12 @@ Speech-to-text (STT) for both user and AI responses, displaying and maintaining 
 
 <img width="518" height="305" alt="speech to text convert(ai+user)" src="https://github.com/user-attachments/assets/86a34683-f18f-4225-aa06-e18a0e8c0dd6" />
 
+_________________________________
+Shows status messages:
+
+<img width="837" height="316" alt="problem shows on status" src="https://github.com/user-attachments/assets/e6d75c1f-abcd-43b2-9b30-03334c74f019" />
+
+
+
 
 
