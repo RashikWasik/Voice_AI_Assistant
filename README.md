@@ -34,7 +34,8 @@ Speech-to-text (STT) for both user and AI responses, displaying and maintaining 
 _________________________________
 Shows status messages:
 
-<img width="837" height="316" alt="problem shows on status" src="https://github.com/user-attachments/assets/e6d75c1f-abcd-43b2-9b30-03334c74f019" />
+<img width="756" height="316" alt="status" src="https://github.com/user-attachments/assets/05aa6b72-df08-4984-93cd-cce37635f1b1" />
+
 
 
 
