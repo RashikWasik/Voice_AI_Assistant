@@ -15,7 +15,7 @@ def process_voice(audio_path, history):
     status = ""
     
     if audio_path is None:
-        return history, None, "❌ Please record audio first!", gr.update(value=None)
+        return history, None, "Please record audio first!", gr.update(value=None)
     
     try:
         with sr.AudioFile(audio_path) as source:
@@ -23,14 +23,14 @@ def process_voice(audio_path, history):
             text = recognizer.recognize_google(audio_data, language="en-US")
             
         if not text or not text.strip():
-            return history, None, "❌ No speech detected (empty voice). Please speak clearly.", gr.update(value=None)
+            return history, None, "No speech detected (empty voice). Please speak clearly.", gr.update(value=None)
             
     except sr.UnknownValueError:
-        return history, None, "❌ Couldn't understand (gibberish/quiet). Try again!", gr.update(value=None)
+        return history, None, "Couldn't understand (gibberish/quiet). Try again!", gr.update(value=None)
     except sr.RequestError:
-        return history, None, "❌ Speech service error. Check internet.", gr.update(value=None)
+        return history, None, "Speech service error. Check internet.", gr.update(value=None)
     except Exception as e:
-        return history, None, f"❌ STT error: {str(e)}", gr.update(value=None)
+        return history, None, f"STT error: {str(e)}", gr.update(value=None)
 
     messages = [
         {"role": "system", "content": "You are a friendly voice AI assistant. Answer naturally and keep replies short."}
