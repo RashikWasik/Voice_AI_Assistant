@@ -11,3 +11,20 @@
 8. One-click button to clear the entire conversation
 9. Proper error handling for smooth experience
 
+_________________________________
+Takes user voice input:
+
+<img width="808" height="446" alt="user intput" src="https://github.com/user-attachments/assets/26d2baa9-7f10-4a95-bacc-4e0039bcdce6" />
+
+_________________________________
+AI generates voice-based responses to user input:
+
+<img width="806" height="325" alt="ai voice output" src="https://github.com/user-attachments/assets/1d29b83f-1001-492a-88b2-f4588e4788a6" />
+
+_________________________________
+Speech-to-text (STT) for both user and AI responses, displaying and maintaining a complete conversation history:
+
+<img width="518" height="305" alt="speech to text convert(ai+user)" src="https://github.com/user-attachments/assets/86a34683-f18f-4225-aa06-e18a0e8c0dd6" />
+
+
+
